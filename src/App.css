@@ -1,0 +1,151 @@
+*{
+  box-sizing: border-box;
+}
+
+#root{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+/* top section styles */
+.top-sec{
+font-family:  Arial, sans-serif;
+padding-left: 10px;
+}
+
+.image-div{
+height:258px;
+width: 550px;
+position: relative;
+
+}
+nav{
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  box-shadow: 2px 2px 3px hsl(0, 1%, 47%);  
+}
+
+.image-div > img{
+  width: 80px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px hsl(0, 10%, 47%);
+  height: 80px;
+}
+
+.image-div >:nth-child(1){
+ position: absolute;
+ top:0;
+}
+.image-div >:nth-child(2){
+ position: absolute;
+ top:100px;
+ left: 70px;
+}
+.image-div >:nth-child(3){
+  position: absolute;
+  top: 75px;
+  height:70px;
+  left: 160px;
+}
+.image-div >:nth-child(4){
+  position: absolute;
+  top: 155px;
+  left:160px;
+}
+.image-div >:nth-child(5){
+  position: absolute;
+  top: 90px;
+  left:250px;
+}
+.image-div >:nth-child(6){
+ position: absolute;
+ bottom: 0;
+ left:250px;
+}
+.image-div >:nth-child(7){
+ position: absolute;
+ top: 72px;
+  left:340px;
+}
+.image-div >:nth-child(8){
+ position: absolute;
+ top: 162px;
+ left:340px;
+}
+.image-div >:nth-child(9){
+ position: absolute;
+ top: 80px;
+ left:430px;
+}
+.image-div >:nth-child(10){
+  position: absolute;
+  bottom:5px;
+  left:430px;
+}
+/* the card component styles */
+.Section{
+  display:flex;
+  gap: 20px;
+}
+.card-div{
+font-family:Arial, Helvetica, sans-serif;
+width: fit-content;
+display: flex;
+flex-direction: column;
+align-items: center;
+position: relative;
+}
+
+.card-img > div{
+background-color: rgb(253, 254, 255);
+width: 61px;
+height:20px;
+font-size:11px;
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+top: 10px;
+left: 25px;
+}
+.card-img > img{
+ height:235px;
+  width: 176px;
+  border-radius: 10px;
+
+}
+
+/* the text under the image styling */
+
+
+.Card-text > :nth-child(2){
+display: inline-block;
+}
+
+.Card-text > p{
+  margin: 5px;
+  font-size:14px;
+}
+
+.Card-text > p >span{
+  color: rgba(104, 110, 110,0.2);
+ 
+}
+
+.Card-text > h4{
+  margin: 5px;
+}
+
+.Card-text > h4 >span{
+  font-weight: 100;
+}
+
+.Card-text>img{
+  height:12px;
+}
+
+
